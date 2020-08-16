@@ -46,3 +46,8 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.img_button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
