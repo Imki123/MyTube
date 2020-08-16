@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+#header{
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black; 
+}
+
+#header img{
+}
