@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0px;
+}
 
 #header{
     height: 56px;
@@ -8,8 +11,38 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
 }
 
-#header img{
+#start{
+    margin-left: 10px;
+}
+#guide_icon{
+    padding: 0 10px;;
+    margin: 0 16px 0 0;
+}
+
+#search_bar{
+    display: inline-block;
+    width: 575px;
+}
+#search_bar input{
+    width: calc(100% - 27px);
+    height: 30px;
+}
+#search_button{
+    background: #f8f8f8;
+    border: 1px solid #d3d3d3;
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+}
+
+#end{
+    width: 225px;
+    padding: 0 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
