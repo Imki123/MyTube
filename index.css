@@ -127,4 +127,46 @@ a{
     overflow: auto;
 }
 
+#grid{
+    background: #f9f9f9;
+    height: 100%;
+}
 
+#grid_title{
+    padding:36px 0 0 24px;
+    font-size: 1.4rem;
+}
+
+#grid_video_wrapper{
+    margin: 16px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.grid_video{
+    margin: 0 1% 40px;
+    width: 22.5%;
+}
+.video_img img{
+    width:100%;
+}
+.video_content{
+    display: flex;    
+}
+.video_profile img{
+    width: 36px;
+    height: 36px;
+    margin: 12px 12px 0 0;
+}
+.video_title{
+    margin: 12px 0 6px;
+}
+.video_name, .video_viewAndTime{
+    color: #606060;
+}
+
+@media(max-width: 1100px){
+    body{
+        width:1100px;
+    }
+}
