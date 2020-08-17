@@ -1,9 +1,23 @@
 *{
     box-sizing: border-box;
 }
+html{
+    font-size: 14px;
+}
 body{
     margin: 0px;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    cursor: pointer;
+}
+
+
+
 
 #header{
     height: 56px;
@@ -50,4 +64,43 @@ body{
 .img_button:hover{
     cursor: pointer;
     opacity: 0.5;
+}
+
+#body_container{
+    display: flex;
+}
+
+#guide{
+    width: 240px;
+    height: calc(100vh - 56px);
+    padding: 12px 24px 0;
+    overflow: auto;
+    color: #030303;
+}
+.guide_division{
+    border-bottom: 1px solid #e5e5e5;
+    margin: 12px 0;
+}
+.guide_division li{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.guide_division img{
+    margin: 8px 24px 8px 0;
+}
+#guide_6 a{
+    color: #606060;
+    font-size: 12px;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+#guide_footer{
+    color: #909090;
+    font-size: 12px;
+}
+#content{
+    width: calc(100% - 240px);
+    height: calc(100vh - 56px);
+    overflow: auto;
 }
