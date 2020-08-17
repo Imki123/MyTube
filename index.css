@@ -70,13 +70,16 @@ a{
     display: flex;
 }
 
-#guide{
+#guide_wrapper{
     width: 240px;
     height: calc(100vh - 56px);
-    padding: 12px 24px 0;
     overflow: auto;
     color: #030303;
 }
+#guide{
+    padding: 12px 24px 0;
+}
+
 .guide_division{
     border-bottom: 1px solid #e5e5e5;
     margin: 12px 0;
