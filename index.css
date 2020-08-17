@@ -18,6 +18,20 @@ a{
 
 
 
+.img_button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.no_hover{
+    background-color: inherit !important;
+    cursor: inherit !important;
+}
+.li_active{
+    background: #e5e5e5
+}
+
+
 
 #header{
     height: 56px;
@@ -61,36 +75,41 @@ a{
     align-items: center;
 }
 
-.img_button:hover{
-    cursor: pointer;
-    opacity: 0.5;
-}
 
 #body_container{
     display: flex;
 }
 
 #guide_wrapper{
+    
+}
+
+#guide{
     width: 240px;
     height: calc(100vh - 56px);
     overflow: auto;
     color: #030303;
 }
-#guide{
-    padding: 12px 24px 0;
-}
 
 .guide_division{
     border-bottom: 1px solid #e5e5e5;
-    margin: 12px 0;
+    padding: 12px 0;
 }
 .guide_division li{
     display: flex;
     align-items: center;
     height: 40px;
+    padding: 12px 24px;
+}
+.guide_division li:hover{
+    background: #e5e5e5;
+    cursor: pointer;
 }
 .guide_division img{
     margin: 8px 24px 8px 0;
+}
+#guide_6{
+    padding: 12px 24px;
 }
 #guide_6 a{
     color: #606060;
@@ -107,3 +126,5 @@ a{
     height: calc(100vh - 56px);
     overflow: auto;
 }
+
+
